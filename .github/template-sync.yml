@@ -5,6 +5,7 @@ files:
   - "!.github/workflows/push.yml"
   - "!.gitignore"
   - "!**/template-sync.yml"
+  - "!action.yml"
   - "!colophon.yml"
   - "!docker-compose.yml"
   - "!docs/**"
