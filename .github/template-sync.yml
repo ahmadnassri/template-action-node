@@ -1,5 +1,5 @@
 additional:
-  - "template-action-*"
+  - "action-terraform-report"
 
 files:
   - "!.github/workflows/push.yml"
