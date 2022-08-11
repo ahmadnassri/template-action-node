@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "version": "0.0.0-semantically-released",
+  "name": "@ahmadnassri/template-lib",
+  "description": "node library project template",
+  "author": "Ahmad Nassri <email@ahmadnassri.com> (https://www.ahmadnassri.com)",
+  "homepage": "https://github.com/ahmadnassri/template-action-node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadnassri/template-action-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/template-action-node/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/ahmadnassri"
+  },
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "node",
+    "library"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "microbundle --no-pkg-main --no-sourcemap --external none --target node --format esm --entry index.js --output dist/index.js",
+    "test": "tap test --no-coverage",
+    "test:watch": "tap test --watch",
+    "test:ci": "tap test --100",
+    "test:report": "opener coverage/lcov-report/index.html"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.0",
+    "tap": "^16.3.0"
+  }
+}
