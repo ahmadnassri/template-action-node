@@ -1,5 +1,5 @@
 additional:
-  # - "template-action-*"
+  - "template-action-*"
 
 files:
   - "!.github/workflows/push.yml"
