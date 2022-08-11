@@ -2,13 +2,11 @@ additional:
   - "action-terraform-report"
 
 files:
-  - "!.github/workflows/push.yml"
-  - "!.gitignore"
-  - "!**/*.js"
+  - "!.github/test-matrix.json"
+  - "!**.js"
   - "!**/template-sync.yml"
   - "!action.yml"
   - "!colophon.yml"
-  - "!docker-compose.yml"
-  - "!docs/**"
-  - "!Makefile"
+  - "!docs/README.md"
+  - "!package*.json"
   - "!README.md"
