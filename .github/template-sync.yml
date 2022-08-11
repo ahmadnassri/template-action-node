@@ -4,6 +4,7 @@ additional:
 files:
   - "!.github/workflows/push.yml"
   - "!.gitignore"
+  - "!**/*.js"
   - "!**/template-sync.yml"
   - "!action.yml"
   - "!colophon.yml"
