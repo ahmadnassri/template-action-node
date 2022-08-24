@@ -5,7 +5,7 @@
 services:
   # ---- mega-linter ---- #
   lint:
-    image: oxsecurity/megalinter:v6.6.0
+    image: oxsecurity/megalinter-javascript:v6
     volumes:
       - ./:/tmp/lint
     environment:
