@@ -11,3 +11,5 @@ files:
   - "!docs/README.md"
   - "!package*.json"
   - "!README.md"
+  - "!.github/dependabot.yml"
+  - .github/dependabot-template.yml: .github/dependabot.yml
