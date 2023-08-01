@@ -5,11 +5,14 @@ additional:
 files:
   - "!.github/test-matrix.json"
   - "!**.js"
-  - "!**/template-sync.yml"
   - "!action.yml"
   - "!colophon.yml"
   - "!docs/README.md"
   - "!package*.json"
   - "!README.md"
+  - "!**/template-sync.yml"
   - "!.github/dependabot.yml"
-  - .github/dependabot-template.yml: .github/dependabot.yml
+  - "!.github/workflows/*.yml"
+  - .github/template/push.yml: .github/workflows/push.yml
+  - .github/template/pull_request_target.yml: .github/workflows/pull_request_target.yml
+  - .github/template/dependabot.yml: .github/dependabot.yml
